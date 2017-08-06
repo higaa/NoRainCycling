@@ -1,0 +1,3 @@
+OpenWeatherMap APIkey
+
+1ce18d0717b975d97c7211b2660250a7

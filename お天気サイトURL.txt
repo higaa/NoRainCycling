@@ -1,0 +1,9 @@
+
+「 オープンデータ 」一覧
+https://usortblog.com/category/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF/
+
+OpenWeatherMapを利用して天気情報を取得してみる
+https://usortblog.com/openweathermap/
+
+OpenWeatherMapをショートコードにして各地の天気を表示
+https://usortblog.com/openweathermap2/
