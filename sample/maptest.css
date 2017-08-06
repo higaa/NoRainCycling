@@ -27,10 +27,18 @@ html, body {
 	width: 200px;
 	height: 200px;
 }
+#set{
+	position:fixed;
+	bottom: 0;
+	right: 1;
+	padding: 20px;
+	width: 30px;
+	height: 30px;
+}
 #close{
 	position:fixed;
 	bottom: 1;
-	padding: 0px 50px 30px;
+	padding: 0px 50px 50px 100px;
 	right: 0;
 	width: 20px;
 	height: 20px;
@@ -38,7 +46,7 @@ html, body {
 
 #balloon2 {
  	position: relative;
-	top:180px;
+	top:150px;
 	left:-200px;
 	display: inline-block;
  	margin: 1.5em 15px 1.5em 0;
