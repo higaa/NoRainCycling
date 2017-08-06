@@ -46,7 +46,7 @@
 		
 
 		<div id="balloon2">
-	  		（´・ω・）
+	  		天気は良好だよ！
 		</div>
 
 		<img src="./miratan.png" id="miratan"/>
