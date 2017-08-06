@@ -22,14 +22,15 @@
        		center: {lat: 36.812, lng: 137.396}
      	});
 
-	    /*
+	    
 		// クリックイベントを追加
 	    map.addListener('click', function(e) {
-	    	getClickLatLng(e.latLng, map);
+	    	//getClickLatLng(e.latLng, map);
+			
+			rootSet(map,"魚津駅",e.latLng);
 	    });
-		*/
-
-		rootSet("滑川駅","魚津駅");
+		
+		
     }
 </script>
 
@@ -43,14 +44,15 @@
   	
 
 	<div id="message">
-		
-
 		<div id="balloon2">
-	  		天気は良好だよ！
+	  		行き先をクリックしてね！
 		</div>
-
 		<img src="./miratan.png" id="miratan"/>
-		<input type="image" id="close" onClick="miratan_close()" src="./close_btn.png"/>
+		<input type="image" id="close" onClick="miratanClose()" src="./closeBtn.png"/>
+	</div>
+
+	<div id="set">
+		<input type="image" id="set" onClick="rootClear()" src="./setBtn.png"/>
 	</div>
   
 </body>
